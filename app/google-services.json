@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "152913857423",
+    "firebase_url": "https://turistworld-a4076.firebaseio.com",
+    "project_id": "turistworld-a4076",
+    "storage_bucket": "turistworld-a4076.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152913857423:android:730e1239d8760e747999fa",
+        "android_client_info": {
+          "package_name": "com.example.turistworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152913857423-8l1qenpe8fteskaur6d723vmr36h3a3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.turistworld",
+            "certificate_hash": "8e626c7d92642108a8f2b2e501c1cc767316b17f"
+          }
+        },
+        {
+          "client_id": "152913857423-ehjo9etmfilh2h9avrqi193hkkhh0o8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.turistworld",
+            "certificate_hash": "bdd689377b4c4a20f1c0cb5d352f71940087d27d"
+          }
+        },
+        {
+          "client_id": "152913857423-estv41a7sme8j4l2asippg6dfmg4dnol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSmd67LkRq311s1m9b5301g3BP4c1OEbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152913857423-estv41a7sme8j4l2asippg6dfmg4dnol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

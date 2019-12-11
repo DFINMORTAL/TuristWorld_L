@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F1C1C"
+    tools:context=".menu">
+
+    <Button
+        android:id="@+id/btmapa"
+        android:layout_width="399dp"
+        android:layout_height="53dp"
+        android:text="MAPA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <Button
+        android:id="@+id/btlugares"
+        android:layout_width="157dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:text="LUGARES"
+        app:layout_constraintBottom_toTopOf="@+id/btmapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btbrujula"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvnivel"
+        app:layout_constraintVertical_bias="0.967" />
+
+    <Button
+        android:id="@+id/btbrujula"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="16dp"
+        android:text="BRUJULA"
+        app:layout_constraintBottom_toTopOf="@+id/btmapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btlugares"
+        app:layout_constraintTop_toBottomOf="@+id/tvnivel"
+        app:layout_constraintVertical_bias="0.967" />
+
+    <ImageView
+        android:id="@+id/ivperfil"
+        android:layout_width="230dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvnombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvperfil"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvperfil"
+        android:layout_width="73dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="6dp"
+        android:baselineAligned="false"
+        android:text="Perfil"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/ivperfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvnivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel 100"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/btmapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvnombre"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <TextView
+        android:id="@+id/tvnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="526dp"
+        android:text="Damian"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/ivperfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivperfil" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
